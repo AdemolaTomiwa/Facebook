@@ -1,0 +1,20 @@
+{
+   "name": "facebook",
+   "version": "1.0.0",
+   "description": "A clone of the Facebook app with the MERN Stack",
+   "type": "module",
+   "main": "server.js",
+   "scripts": {
+      "start": "node server.js",
+      "server": "nodemon server.js"
+   },
+   "author": "Tomiwa Adelae",
+   "license": "MIT",
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.0.13"
+   }
+}
